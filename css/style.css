@@ -95,14 +95,57 @@ section {
 	margin-bottom: 20px;
 }
 
+
+#btn{
+	background-color: #026AA7;
+	color: #FFF;
+	padding: 12px;
+	border-radius: 5px;
+	width: 250px;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	border: 0;
+}
+
+.primero{
+	background-color: #E5E6E9 ;
+	padding: 18px;
+	border-radius: 5px;
+	width: 220px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+#input-primero{
+	display:block;
+	height: 35px;
+	border-radius: 5px;
+	border: 3px solid #CECECF;
+	width: 90%;
+	padding: 0 10px;
+	background-color: #DADADA; 
+}
+#btn-guardar, .btnAnadir{
+	background-color: #6CC055;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 8px 10px;
+	cursor: pointer;
+	display: inline;
+}
+
+
 section #icon{
 	margin-left:30px;
 	font-size: 15px;
 
 }
-main{
-	widows: ;
-}
+/*
 
 main .input{
 	width: 250px;
