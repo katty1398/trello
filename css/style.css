@@ -112,6 +112,7 @@ section {
 .primero{
 	background-color: #E5E6E9 ;
 	padding: 18px;
+	padding-top: 5px;
 	border-radius: 5px;
 	width: 220px;
 	display: inline-block;
@@ -121,12 +122,11 @@ section {
 
 #input-primero{
 	display:block;
-	height: 35px;
+	height: 80px;
 	border-radius: 5px;
 	border: 3px solid #CECECF;
 	width: 90%;
 	padding: 0 10px;
-	background-color: #DADADA; 
 }
 #btn-guardar, .btnAnadir{
 	background-color: #6CC055;
@@ -145,6 +145,52 @@ section #icon{
 	font-size: 15px;
 
 }
+
+.primero #cruz{
+	color: #BDBDBF;
+}
+
+#punto{
+	margin-left: 200px;
+	color: #BDBDBF;
+	font-size: 15px;
+
+}
+
+
+.primero #puntos{
+	/*border: 3px solid #000;*/
+	margin-left: 100px;
+	color: #BDBDBF;
+	font-size: 20px;
+}
+
+.tarjeta{
+	background-color: #E5E6E9;
+    padding: 18px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#input{
+	display:block;
+	height: 30px;
+	border-radius: 5px;
+	border: 3px solid #CECECF;
+	width: 90%;
+	padding: 0 10px;
+
+}
+
+.tarjeta .agregarNuevaTarea{
+	color: #BDBDBF;
+
+}
+
 /*
 
 main .input{
